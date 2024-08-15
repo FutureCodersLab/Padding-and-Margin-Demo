@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Margin vs Padding Demo</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="controls">
+                <div class="control-container">
+                    <label for="margin"
+                        >Margin (px): <span id="marginValue">10px</span></label
+                    >
+                    <input
+                        type="range"
+                        id="margin"
+                        min="0"
+                        max="50"
+                        value="10"
+                    />
+                </div>
+
+                <div class="control-container">
+                    <label for="padding">
+                        Padding (px):
+                        <span id="paddingValue">10px</span></label
+                    >
+                    <input
+                        type="range"
+                        id="padding"
+                        min="0"
+                        max="50"
+                        value="10"
+                    />
+                </div>
+            </div>
+
+            <div class="box-container">
+                <div class="box">
+                    <div class="content">Content</div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
